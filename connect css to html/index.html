@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<!--Hay cuatro formas de conectar html con css
+
+1- Colocando <link rel="stylesheet" href="css/styles.css"> en el head y es el más recomendado.
+
+2- A través de la etiqueta <style> en el head.
+    <style> 
+        body {
+            background-color: #f0f0f0;
+        }
+    </style> 
+    Esto no es recomendable porque nosotros no tenemos un solo documento html sino varios, y lo más normal es que los estilos estén compartidos entre los distintos documentos para compartir cierta coherencia. Una modificación implicaría ir por cada documento modificando el contenido de la etiqueta <style>. Solo es recomendable en ciertas situaciones, como por ejemplo en el caso de que estemos trabajando con un correo electrónico, los cuales se maquetan con css, en ese caso no se puede importar un archivo css, por lo que la única forma es esta.
+
+3- Utilizar CSS en línea, eso implica añadirle el atributo style a la etiqueta html. Por ejemplo.
+<h1 style="background-color: blue"> esto es lo peor que podes hacer en tu vida.
+
+4- Utilizar la regla import
+@import url(css/styles.css)
+esto no se debe hacer nunca, aunque sea un estándar. Esto implica que se va a cargar de manera asíncrona, es decir que html va a cargar todo, y una vez que el archivo este listo va a cargar el css. Representa una mala experiencia de usuario, y también implica que si hubiese más de un hoja de estilos, cargaría después de la primera porque son bloqueantes-->
+
+<body>
+    <h1>Conectar html con css</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia ipsum doloremque, voluptatum doloribus non magni nobis omnis praesentium corrupti exercitationem quam ullam iure ea earum expedita eligendi eaque incidunt. Nulla!</p>
+</body>
+</html>

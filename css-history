@@ -1,0 +1,20 @@
+// CSS
+Cascade style sheet (Hojas de estilo en cascada).
+
+hojas de estilo son los archivos donde escribimos CSS
+En cascada se refiere a que el archivo se lee de arriba a abajo, eso quiere decir que los estilo pisan a los de abajo.
+
+Es un lenguaje de diseño.
+
+No hace falta instalar nada, es algo que nosotros escribimos y el navegador interpreta, para interpretarlo tiene algo que se denomina motor de renderizado que lo traen todos los navegadores y es el que se encarga de leer el css y de pintar en pantalla las instrucciones que nosotros le damos.
+
+Nació en 1996, antes de 1996 las páginas web eran texto, imágenes y enlaces, no había nada más. En 1996 se creó el primer estándar de css que fue primera versión //CSS1.
+En 1998 salió la segunda versión CSS2 que fue la que se conocía como CSS2.
+En 2011 se tomó la decisión de modularizar CSS, es decir separar cada parte por módulos, debido a cómo estaba creciendo, dejando atrás las versiones monolíticas. De esta forma CSS podía añadir cosas nuevas a un cierto módulo sin tener que sacar una nueva versión.
+
+Al día de hoy cada módulo va por separado, y esto permite a cada módulo avanzar de manera independiente. La última versión de CSS fue CSS 2.1 pero por temas de marketing se le llamó CSS3. Formalmente no existe un estándar de CSS3, sino que se van actualizando los módulos.
+
+CSS es acumulativo.
+
+
+
